@@ -43,8 +43,6 @@ const Section2 = () => {
                     <img src='curve.png' alt='curve' className='w-10 m-auto mt-[23%]' />
                 </div>
             </div>
-            <h1 className='text-center lg:text-xl lg:mt-40'>Available On All Of your</h1>
-            <h1 className='text-center lg:text-4xl font-bold '>Devices</h1>
         </>
     )
 }
