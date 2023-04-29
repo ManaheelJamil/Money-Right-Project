@@ -20,7 +20,7 @@ const Section2 = () => {
         <>
          <div className='flex  relative'>
                 <div><img src='shade2.svg' className='shade2'  /></div>
-                <div><img src='shade3.svg' className='shade3 xl:ml-48' /></div>
+                <div><img src='shade3.svg' className='shade3 xl:ml-72 2xl:ml-[30%]' /></div>
             </div>
             <div className='flex  justify-center lg:mt-20'>
                 <img src='nut.png' className='w-60 ' />
@@ -37,14 +37,14 @@ const Section2 = () => {
                   animate={inView ? "visible" : "hidden"}
                   variants={variants}
                   transition={{ duration: 1 }}
-                className='border  border-white rounded-3xl h-48  w-40'>
-                    <h1 className='text-center text-xs font-bold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[50%] px-5 mt-5'>Allowing users to input and
+                className='border  border-white rounded-3xl h-56  w-48'>
+                    <h1 className='text-center text-lg font-bold mt-10'>Expense Tracking</h1>
+                    <p className='text-center text-[50%] text-sm px-5 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[23%]' />
+                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[8%]' />
       
                 </motion.div>
                 <motion.div
@@ -53,14 +53,14 @@ const Section2 = () => {
                  animate={inView ? "visible" : "hidden"}
                  variants={variantss}
                  transition={{ duration: 1 }}
-                className='border  border-white rounded-3xl h-48 w-40'>
-                    <h1 className='text-center text-xs font-bold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[50%] px-5 mt-5'>Allowing users to input and
+                className='border  border-white rounded-3xl h-56 w-48'>
+                    <h1 className='text-center text-lg font-bold mt-10'>Expense Tracking</h1>
+                    <p className='text-center text-[50%] text-sm px-5 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[23%]' />
+                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[8%]' />
 
                 </motion.div>
                 <motion.div
@@ -69,14 +69,14 @@ const Section2 = () => {
                  animate={inView ? "visible" : "hidden"}
                  variants={variant}
                  transition={{ duration: 1 }}
-                className='border  border-white rounded-3xl h-48 w-40'>
-                    <h1 className='text-center text-xs font-bold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[50%] px-5 mt-5'>Allowing users to input and
+                className='border  border-white rounded-3xl h-56 w-48'>
+                    <h1 className='text-center text-lg font-bold mt-10'>Expense Tracking</h1>
+                    <p className='text-center text-[50%] text-sm px-5 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[23%]' />
+                    <img src='curve.png' alt='curve' className='w-10 m-auto mt-[8%]' />
       
                 </motion.div>
             </div>

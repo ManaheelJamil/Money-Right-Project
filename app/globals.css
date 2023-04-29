@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components{
+  *{
+    font-family: 'Poppins'
+  }
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);

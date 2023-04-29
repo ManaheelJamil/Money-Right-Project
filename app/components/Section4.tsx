@@ -18,8 +18,8 @@ const Section4 = () => {
       <h1 className='text-center lg:text-lg '>Hear What Our Satisfied Users Have to Say!</h1>
       <div className='flex relative justify-between'>
         <div> <img src="shade4.svg" alt="shade4" className='shade4' /> </div>
-        <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-44' /> </div>
-        <div className='flex absolute mt-32 2xl:ml-72 2xl:mt-40 mx-10 xl:mx-40  m-auto'>
+        <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-64 2xl:ml-[40%]' /> </div>
+        <div className='flex absolute mt-32 2xl:ml-72 2xl:mt-40 mx-10 xl:mx-52  m-auto'>
           <motion.div 
            ref={ref}
            initial="hidden"

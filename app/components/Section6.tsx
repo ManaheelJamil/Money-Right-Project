@@ -4,13 +4,13 @@ const Section6 = () => {
     return (
         <>
             <div >
-                <img src='shade6.svg' className='shade6'/>
+                <img src='shade6.svg' className='shade6 2xl:ml-64 xl:ml-56'/>
             </div>
             <div className='flex  justify-center mt-44'>
                 <div className='  mt-[-10%]  inset-10'>
-                    <img src="bitcoin.svg" className='bitcoin xl:ml-20 2xl:ml-44 2xl:mt-10' />
+                    <img src="bitcoin.svg" className='bitcoin xl:ml-32 2xl:ml-44 2xl:mt-10' />
                 </div>
-                <div className='  rounded-3xl about1 2xl:ml-44 xl:ml-20 bg-[#050505] h-80 w-56'>
+                <div className='  rounded-3xl about1 2xl:ml-44 xl:ml-32 bg-[#050505] h-80 w-56'>
                     <svg width="138" height="138" className=" m-auto lg:mt-[1%]" viewBox="0 0 208 208" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <rect width="208" height="208" fill="url(#pattern0)" />
                         <defs>
