@@ -3,8 +3,109 @@
 @tailwind utilities;
 
 @layer components{
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .left-element {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
 body{
   @apply text-white bg-black
+}
+.but{
+  box-sizing: border-box;
+position: absolute;
+width: 116px;
+height: 32px;
+left:800px;
+}
+.text{
+  position: absolute;
+width: 76px;
+height: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.about{
+  position: absolute;
+background: #050505;
+opacity: 0.5;
+left:35%;
+z-index: 2;
+}
+.about1{
+  position: absolute;
+left: 131px;
+background: #050505;
+opacity: 0.5;
+border-radius: 65px;
+}
+.lastshade{
+  position: absolute;
+width: 686px;
+height: 156px;
+left:20%;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(110px);
+}
+.shade6{
+  position: absolute;
+width: 486px;
+height: 486px;
+left: 197px;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(200px);
+}
+.shade4{
+  position: absolute;
+width: 372px;
+height: 372px;
+left: -144px;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(250px);
+}
+.shade5{
+  position: absolute;
+width: 168px;
+height: 268px;
+left: 798px;
+background: rgba(219, 255, 0, 0.7);
+filter: blur(250px);
+}
+.shade2{
+  position: absolute;
+width: 272px;
+height: 372px;
+left: -144px;
+top:300px;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(200px);
+}
+.shade3{
+  position: absolute;
+width:122px;
+height: 372px;
+left: 846px;
+top:300px;
+background: rgba(255, 77, 0, 0.7);
+filter: blur(200px);
+}
+.bitcoin{
+  position: absolute;
+  z-index: 1;
+width: 162px;
+height: 162px;
+left: 153px;
 }
   .box1{
     background: linear-gradient(134.41deg, rgba(20, 0, 255, 0.315) -22.6%, rgba(0, 102, 255, 0.315) 101.05%);

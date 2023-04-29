@@ -3,10 +3,10 @@ import React from 'react'
 const Section7 = () => {
     return (
         <div>
-            <h1 className='text-4xl font-bold text-center mt-32'>Connect</h1>
+            <h1 className='text-4xl 2xl:text-5xl font-bold xl:text-5xl text-center xl:mt-[40%] lg:mt-[50%]'>Connect</h1>
             <p className='text-sm  text-center'>With Us</p>
-            <img src='image 2.png ' className='w-48 h-48 ml-40 mt-[-8%]' />
-            <div className='flex justify-between px-14 py-10 mt-[-6%] rounded-3xl w-[60%] m-auto h-52  bg-[#050505BF]'>
+            <img src='image 2.png ' className='w-48 h-48 ml-40 mt-[-8%] 2xl:ml-60  2xl:mt-5' />
+            <div className='flex justify-between 2xl:py-10 px-14 py-10 mt-[-6%] rounded-3xl w-[60%] m-auto h-52  bg-[#050505BF]'>
                 <div> <h1 className='text-2xl font-bold'>Start Your</h1>
                     <h1 className='text-4xl font-bold'>Money Right</h1>
                     <p className='text-[60%] mt-5 '>moneyright@gmail.com</p>
@@ -23,8 +23,8 @@ const Section7 = () => {
                     </svg>
                 </div>
             </div>
-            <div> <img src='shade7.svg' className='mt-[-20%]' /></div>
-            <p className='text-[40%] text-center'>All Right Reserved</p>
+            <div> <img src='shade7.svg' className='lastshade' /></div>
+            <p className='text-[40%] mt-32 text-center'>All Right Reserved</p>
             <p className='text-[40%] text-center'>Developed by Mayonity</p>
         </div>
     )

@@ -3,14 +3,14 @@ import React from 'react'
 const Section6 = () => {
     return (
         <>
-            <div className=''>
-                <img src='shade6.svg' className='mt-[-30%] absolute'/>
+            <div >
+                <img src='shade6.svg' className='shade6'/>
             </div>
-            <div className='flex justify-center mt-28'>
+            <div className='flex  justify-center mt-44'>
                 <div className='  mt-[-10%]  inset-10'>
-                    {/* <img src="bitcoin.svg" className='w-28  inset-20' /> */}
+                    <img src="bitcoin.svg" className='bitcoin xl:ml-20 2xl:ml-44 2xl:mt-10' />
                 </div>
-                <div className='  rounded-3xl   bg-[#050505] h-80 w-56'>
+                <div className='  rounded-3xl about1 2xl:ml-44 xl:ml-20 bg-[#050505] h-80 w-56'>
                     <svg width="138" height="138" className=" m-auto lg:mt-[1%]" viewBox="0 0 208 208" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <rect width="208" height="208" fill="url(#pattern0)" />
                         <defs>
@@ -22,9 +22,9 @@ const Section6 = () => {
                     </svg>
                     <img src='logo.png' className='w-44 mx-2 mt-[-15%]' />
                 </div>
-                <div className='  ml-10 rounded-3xl text-center bg-[#050505] h-80 w-[45%]'>
-                    <h1 className='text-3xl font-bold  pt-10'>About</h1>
-                    <p className='text-sm mx-10 mt-5'>
+                <div className='  ml-10 rounded-3xl about text-center bg-[#050505] h-80 w-[45%]'>
+                    <h1 className='text-3xl text-white font-bold  pt-10'>About</h1>
+                    <p className='text-sm  text-white mx-10 mt-5 2xl:px-10'>
                         Money Right is a cutting-edge  finance management
                         app designed to help  individuals take control of their
                         personal finances  and achieve  their  financial goals.
