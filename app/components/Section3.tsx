@@ -13,8 +13,8 @@ const Section3 = ({ delay }: BoxProps) => {
     };
     return (
         <>
-            <h1 className='text-center lg:text-xl 2xl:text-2xl lg:mt-40'>Available On All Of your</h1>
-            <h1 className='text-center lg:text-4xl 2xl:text-5xl font-bold '>Devices</h1>
+            <h1 className='text-center lg:text-2xl 2xl:text-2xl lg:mt-40'>Available On All Of your</h1>
+            <h1 className='text-center lg:text-5xl 2xl:text-5xl font-bold '>Devices</h1>
             <motion.div 
              ref={ref}
              initial="hidden"
@@ -28,8 +28,8 @@ const Section3 = ({ delay }: BoxProps) => {
                     <button className='w-32 h-10 text-xs rounded-full lg:mt-7  bg-[#0000004D]'> Download</button>
                 </div>
                 <div className='box2 w-40 h-40  text-center rounded-3xl'>
-                    <img src='apple (1).png' className='w-32 m-auto lg:mt-[-4%]' />
-                    <p className='text-xs lg:mt-[-30%]'> Mac os</p>
+                    <img src='apple (1).png' className='w-18 m-auto mt-4 ' />
+                    <p className='text-xs mt-2'> Mac os</p>
                     <button className='w-32 h-10 text-xs rounded-full lg:mt-6  bg-[#0000004D]'> Download</button>
                 </div>
                 <div className='box3 w-40 h-40  text-center rounded-3xl'>
@@ -43,8 +43,8 @@ const Section3 = ({ delay }: BoxProps) => {
                     <button className='w-32 h-10 text-xs rounded-full lg:mt-7  bg-[#0000004D]'> Download</button>
                 </div>
                 <div className='box5 w-40 h-40  text-center rounded-3xl'>
-                    <img src='apple (1).png' className='w-32 m-auto lg:mt-[-4%]' />
-                    <p className='text-xs lg:mt-[-30%]'> IOS</p>
+                    <img src='apple (1).png' className='w-18 m-auto mt-4' />
+                    <p className='text-xs mt-2'> IOS</p>
                     <button className='w-32 h-10 text-xs rounded-full lg:mt-6  bg-[#0000004D]'> Download</button>
                 </div>
             </motion.div>

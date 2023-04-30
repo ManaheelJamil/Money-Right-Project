@@ -14,7 +14,7 @@ const Section4 = () => {
     };
   return (
     <>
-      <h1 className='text-center lg:text-4xl 2xl:text-5xl font-bold lg:mt-48'>Reviews</h1>
+      <h1 className='text-center lg:text-5xl 2xl:text-5xl font-bold lg:mt-48'>Reviews</h1>
       <h1 className='text-center lg:text-lg '>Hear What Our Satisfied Users Have to Say!</h1>
       <div className='flex relative justify-between'>
         <div> <img src="shade4.svg" alt="shade4" className='shade4' /> </div>
