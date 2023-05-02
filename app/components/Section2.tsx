@@ -32,11 +32,15 @@ const Section2 = () => {
            
             <div className='flex mt-20 w-[80%] justify-evenly m-auto'>
                 <motion.div 
-                
+                //  ref={ref}
+                //  initial="hidden"
+                //  animate={inView ? "visible" : "hidden"}
+                //  variants={variants}
+                //  transition={{ duration: 1 }}
                 >
                 <img src='border.png' className='w-64 '/>
-                <h1 className='text-center  absolute text-2xl font-semibold mt-[-22%] mx-10'>Expense Tracking</h1>
-                    <p className='text-center absolute lg:text-[100%] xl:text-[110%] mt-[-17%] ml-5 xl:w-52 px-3 '>Allowing users to input and
+                <h1 className='text-center  absolute text-xl font-semibold mt-[-22%] mx-10'>Expense Tracking</h1>
+                    <p className='text-center absolute lg:text-[100%] xl:text-[90%] mt-[-18%] ml-5 xl:w-52 px-3 '>Allowing users to input and
                         categorize expenses, creat
                         spending reports, and gain
                         insights into their spending
@@ -46,11 +50,15 @@ const Section2 = () => {
                
 
                 <motion.div 
-             
+                //  ref={ref}
+                //  initial="hidden"
+                //  animate={inView ? "visible" : "hidden"}
+                //  variants={variantss}
+                //  transition={{ duration: 1 }}
                 >
                 <img src='border.png' className='w-64 relative'/>
-                <h1 className='text-center  absolute text-2xl font-semibold xl:mt-[-22%] xl:mx-10'>Expense Tracking</h1>
-                    <p className='text-center absolute lg:text-[100%] xl:text-[110%] xl:mt-[-17%] xl:ml-5 xl:w-52 px-3 mt-5'>Allowing users to input and
+                <h1 className='text-center  absolute text-xl font-semibold xl:mt-[-22%] xl:mx-10'>Expense Tracking</h1>
+                    <p className='text-center absolute lg:text-[100%] xl:text-[90%] mt-[-18%] xl:ml-5 xl:w-52 px-3 '>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
@@ -58,11 +66,15 @@ const Section2 = () => {
                     <img src='expense.png' className='absolute w-8 m-auto ml-28 mt-[-4%]'/>
                 </motion.div>
                 <motion.div 
-                
+                //  ref={ref}
+                //  initial="hidden"
+                //  animate={inView ? "visible" : "hidden"}
+                //  variants={variant}
+                //  transition={{ duration: 1 }}
                 >
                 <img src='border.png' className='w-64 relative'/>
-                <h1 className='text-center  absolute text-2xl font-semibold xl:mt-[-22%] xl:mx-10'>Expense Tracking</h1>
-                    <p className='text-center absolute lg:text-[100%] xl:text-[110%] xl:mt-[-17%] xl:ml-5 xl:w-52 px-3 mt-5'>Allowing users to input and
+                <h1 className='text-center  absolute text-xl font-semibold xl:mt-[-22%] xl:mx-10'>Expense Tracking</h1>
+                    <p className='text-center absolute lg:text-[100%] xl:text-[90%] mt-[-18%] xl:ml-5 xl:w-52 px-3'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
