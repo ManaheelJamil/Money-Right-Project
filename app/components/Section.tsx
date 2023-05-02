@@ -42,7 +42,7 @@ const Section = () => {
                     transition={{ duration: 1 }}
                     className=' rounded-3xl lg:w-52 lg:h-28 lg:mt-40' style={{background: '#121212'}}>
                         <img src='smallicon1.png' className='w-20 h-14 m-auto' alt='logo' />
-                        <p className='text-[8px] text-center mx-10 mt-2 w-20'>Effortlessly manage and<br />
+                        <p className='text-[8px] text-center mx-10 mt-2 '>Effortlessly manage and<br />
                             track your investments<br />
                             in real-time.</p>
                     </motion.div>
@@ -57,7 +57,7 @@ const Section = () => {
                           variants={variantss}
                           transition={{ duration: 1 }}
                         src='laptop.svg' className='lg:mt-[-2%] xl:ml-48 2xl:ml-40 xl:mt-[-5%] absolute inset-0 lg:ml-44  w-[65%]' /></div>
-                    <p className='text-2xl 2xl:mt-[110%] lg:mt-96 xl:mt-[100%] xl:text-3xl xl:ml-64 lg:ml-48 text-center font-bold '>STREAMLINE<br />
+                    <p className='text-2xl 2xl:mt-[110%] lg:mt-96 xl:mt-[100%] xl:text-3xl xl:ml-56 lg:ml-48 text-center font-bold '>STREAMLINE<br />
                         YOUR<br />
                         WEALTH</p>
                 </div>

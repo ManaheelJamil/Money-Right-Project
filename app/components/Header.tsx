@@ -42,7 +42,7 @@ const Header = () => {
                         <h1 className='text-white lg:ml-5'>Contact Us</h1>
                         <h1 className='text-white lg:ml-5'>About Us</h1>
                     </div>
-                    <div className='xl:ml-72'><img src='button.png' className=' lg:ml-10 2xl:ml-[35%] xl:ml-40 w-32 but' /><h1 className='text-xs lg:ml-44 xl:ml-10  mt-2'>How It Works</h1></div>
+                    <div className='xl:ml-72'><img src='button.png' className=' lg:ml-10 2xl:ml-[35%] xl:ml-60 w-32 but' /><h1 className='text-xs lg:ml-44 xl:ml-20  mt-2'>How It Works</h1></div>
                 </div>
                 <div className="flex">
                     <div className='lg:ml-20'>

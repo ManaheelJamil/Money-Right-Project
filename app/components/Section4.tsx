@@ -21,7 +21,7 @@ const Section4 = () => {
         <div> <img src="shade4.svg" alt="shade4" className='shade4 mt-24' /> </div>
         <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-64 mt-24 2xl:ml-[40%]' /> </div>
         <div className='flex absolute mt-52 2xl:ml-72 2xl:mt-40 mx-10   m-auto'>
-          <div className=' ml-[-1%] mt-48 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+          <div className=' ml-[-1%] mt-32 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
           <BsArrowLeft className='m-2'/></div>
           <motion.div 
            ref={ref}
