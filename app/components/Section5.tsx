@@ -6,7 +6,7 @@ const Section5 = () => {
  <div className='flex justify-center  mt-20'>
     <img src='circle.png ' className='relative w-60 inset-16  mr-32'/>
  </div>
- <div className=' z-10 w-[800px] h-[380px] text-center  m-auto rounded-[65px] ' style={{
+ <div className=' z-10 lg:w-[800px] xl:w-[900px] h-[380px] text-center  m-auto rounded-[65px] ' style={{
 background: '#050505'}} >
     <h1 className='text-6xl font-bold lg:pt-20'>Subscribe</h1>
     <p className='text-xl lg:mt-2 text-gray-200'>Stay in the know and Unlock Exclusive<br/> Benefits With Our Newsletter!</p>

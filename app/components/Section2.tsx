@@ -20,7 +20,7 @@ const Section2 = () => {
         <>
          <div className='flex  relative'>
                 <div><img src='shade2.svg' className='shade2'  /></div>
-                <div><img src='shade3.svg' className='shade3 xl:ml-72 2xl:ml-[30%]' /></div>
+                <div><img src='shade3.svg' className='shade3 xl:ml-52 2xl:ml-[30%]' /></div>
             </div>
             <div className='flex  justify-center lg:mt-20'>
                 <img src='nut.png' className='w-72 ' />
@@ -39,12 +39,12 @@ const Section2 = () => {
                   transition={{ duration: 1 }}
                 className='border-4  border-white rounded-[15%] h-72   w-64'>
                     <h1 className='text-center text-2xl font-semibold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[100%]  px-3 mt-5'>Allowing users to input and
+                    <p className='text-center lg:text-[100%] xl:text-[110%]  px-3 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-20 m-auto mt-[13%]' />
+                    <img src='curve.png' alt='curve' className='w-20 m-auto xl:mt-[7%] lg:mt-[13%]' />
                     <img src='expense.png' className=' w-8 m-auto mt-[-22%]'/>
                 </motion.div>
                 <motion.div
@@ -55,12 +55,12 @@ const Section2 = () => {
                  transition={{ duration: 1 }}
                 className='border-4  border-white rounded-[15%] h-72 ml-10 w-64'>
                     <h1 className='text-center text-2xl font-semibold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[100%]  px-3 mt-5'>Allowing users to input and
+                    <p className='text-center lg:text-[100%] xl:text-[110%]  px-3 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-20 m-auto mt-[13%]' />
+                    <img src='curve.png' alt='curve' className='w-20 m-auto xl:mt-[7%]  lg:mt-[13%]' />
                     <img src='expense.png' className=' w-8 m-auto mt-[-22%]'/>
                 </motion.div>
                 <motion.div
@@ -71,12 +71,12 @@ const Section2 = () => {
                  transition={{ duration: 1 }}
                 className='border-4  border-white rounded-[15%] h-72 ml-10  w-64'>
                     <h1 className='text-center text-2xl font-semibold mt-10'>Expense Tracking</h1>
-                    <p className='text-center text-[100%]  px-3 mt-5'>Allowing users to input and
+                    <p className='text-center lg:text-[100%] xl:text-[110%]  px-3 mt-5'>Allowing users to input and
                         categorize expenses, create
                         spending reports, and gain
                         insights into their spending
                         patterns.</p>
-                    <img src='curve.png' alt='curve' className='w-20 m-auto mt-[13%]' />
+                    <img src='curve.png' alt='curve' className='w-20 m-auto  xl:mt-[7%]  lg:mt-[13%]' />
                     <img src='expense.png' className=' w-8 m-auto mt-[-22%]'/>
       
                 </motion.div>

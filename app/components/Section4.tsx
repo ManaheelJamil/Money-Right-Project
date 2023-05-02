@@ -21,7 +21,7 @@ const Section4 = () => {
         <div> <img src="shade4.svg" alt="shade4" className='shade4 mt-24' /> </div>
         <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-64 mt-24 2xl:ml-[40%]' /> </div>
         <div className='flex absolute mt-52 2xl:ml-72 2xl:mt-40 mx-10   m-auto'>
-          <div className=' ml-[-3%] mt-48 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+          <div className=' ml-[-1%] mt-48 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
           <BsArrowLeft className='m-2'/></div>
           <motion.div 
            ref={ref}
@@ -29,7 +29,7 @@ const Section4 = () => {
            animate={inView ? "visible" : "hidden"}
            variants={variants}
            transition={{ duration: 1 }}
-          className='  border border-white rounded-3xl ml-6 w-56'>
+          className='  border border-white rounded-3xl xl:ml-32 lg:ml-6 w-56'>
             <div className='flex mx-5 mt-5 '>
               <img src='star (2).png' alt="icon" className='h-10 w-10' />
               <h1 className='ml-3'>Sarah123<p className='text-xs text-gray-600'>Sarah123@gmail.com</p></h1>
@@ -65,7 +65,7 @@ const Section4 = () => {
            animate={inView ? "visible" : "hidden"}
            variants={variant}
            transition={{ duration: 1 }}
-          className='  border border-white rounded-3xl mr-7 w-56 pb-5'>
+          className='  border border-white rounded-3xl xl:mr-32 lg:mr-6 w-56 pb-5'>
             <div className='flex mx-5 mt-5 '>
               <img src='icon2.png' alt="icon" className='h-10 w-10' />
               <h1 className='ml-3'>JaneDoe<p className='text-xs text-gray-600'>Janedoe@gmail.com</p></h1>

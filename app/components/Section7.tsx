@@ -5,8 +5,8 @@ const Section7 = () => {
         <div>
             <h1 className='text-4xl lg:text-[64px] font-bold  text-center xl:mt-[40%] lg:mt-[55%]'>Connect</h1>
             <p className='text-[24px]  mt-1 text-center'>With Us</p>
-            <img src='image 2.png ' className='w-[280px] h-[280px] ml-12 mt-[-9%] 2xl:ml-60  2xl:mt-5' />
-            <div className='flex justify-between 2xl:py-10 px-20 py-10 mt-[-9%] rounded-[45px] h-[280px] w-[800px] m-auto ' style={{
+            <img src='image 2.png ' className='lg:w-[280px] lg:h-[280px]   ml-12 mt-[-9%] 2xl:ml-60  2xl:mt-5' />
+            <div className='flex justify-between 2xl:py-10 px-20 py-10 mt-[-9%] rounded-[45px] lg:h-[280px] xl:h-[280px] xl:w-[1000px] lg:w-[800px] m-auto ' style={{
 background: 'rgba(5, 5, 5, 0.75)'}}>
                 <div> <h1 className='text-3xl font-bold mt-5 '>Start Your</h1>
                     <h1 className='text-6xl font-bold'>Money Right</h1>

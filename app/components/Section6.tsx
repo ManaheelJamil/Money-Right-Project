@@ -10,7 +10,7 @@ const Section6 = () => {
                 <div className='  mt-[-8%]  inset-10'>
                     <img src="bitcoin.svg" className='bitcoin xl:ml-20 lg:ml-1 2xl:ml-44 2xl:mt-10' />
                 </div>
-                <div className='  rounded-[45px] about1 2xl:ml-44 xl:ml-20 lg:ml-[-2%] h-96 w-[270px]' style={{ background: '#050505' }}>
+                <div className='  rounded-[45px] about1 2xl:ml-44 xl:ml-12 lg:ml-[-2%] h-96 w-[270px]' style={{ background: '#050505' }}>
                     <svg width="148" height="148" className=" m-auto lg:mt-[7%]" viewBox="0 0 208 208" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <rect width="208" height="208" fill="url(#pattern0)" />
                         <defs>
@@ -22,7 +22,7 @@ const Section6 = () => {
                     </svg>
                     <img src='logo.png' className='w-56 mx-2 mt-[-10%]' />
                 </div>
-                <div className='  ml-12 rounded-[45px] about text-center bg-[#050505] h-96 w-[50%]'>
+                <div className='  lg:ml-12 xl:ml-6 rounded-[45px] about text-center bg-[#050505] h-96 w-[50%]'>
                     <h1 className='text-5xl text-white font-bold  pt-10'>About</h1>
                     <p className='text-xl  text-white mx-10 mt-5 2xl:px-10'>
                         Money Right is a cutting-edge  finance management<br/>
