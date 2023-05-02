@@ -34,7 +34,7 @@ const Header = () => {
             </div>
             <div className='absolute inset-5'>
                 <div className='flex absolute justify-center '>
-                    <div className='flex justify-center lg:mt-3  xl:ml-32 2xl:ml-60 lg:ml-20 text-md'>
+                    <div className='flex justify-center lg:mt-3  xl:ml-20 2xl:ml-60 lg:ml-20 text-sm'>
                         <h1 className='text-white  lg:ml-52'>Home</h1>
                         <h1 className='text-white lg:ml-5'>Features</h1>
                         <h1 className='text-white lg:ml-5'>Services</h1>
@@ -42,7 +42,7 @@ const Header = () => {
                         <h1 className='text-white lg:ml-5'>Contact Us</h1>
                         <h1 className='text-white lg:ml-5'>About Us</h1>
                     </div>
-                    <div className='xl:ml-72'><img src='button.png' className=' lg:ml-10 2xl:ml-[35%] xl:ml-80 w-32 but' /><h1 className='text-xs lg:ml-56 xl:ml-20  mt-2'>How It Works</h1></div>
+                    <div className='xl:ml-72'><img src='button.png' className=' lg:ml-10 2xl:ml-[35%] xl:ml-40 w-32 but' /><h1 className='text-xs lg:ml-44 xl:ml-10  mt-2'>How It Works</h1></div>
                 </div>
                 <div className="flex">
                     <div className='lg:ml-20'>
