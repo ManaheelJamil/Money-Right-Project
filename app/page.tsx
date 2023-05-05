@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Section from './components/Section'
 import Section2 from './components/Section2'
@@ -11,13 +12,13 @@ const page = () => {
   return (
     <>
       <Header />
-      <Section />
+      {/* <Section />
       <Section2/>
       <Section3/>
       <Section4/>
       <Section5/>
       <Section6/>
-      <Section7/>
+      <Section7/> */}
     </>
   )
 }

@@ -15,21 +15,21 @@ const Section4 = () => {
     };
   return (
     <>
-      <h1 className='text-center lg:text-[64px] font-bold lg:mt-48'>Reviews</h1>
-      <h1 className='text-center lg:text-[32px] mt-[-2%]'>Hear What Our Satisfied Users Have to Say!</h1>
+      <h1 className='text-center lg:text-[64px] font-bold text-5xl mt-20 lg:mt-48'>Reviews</h1>
+      <h1 className='text-center lg:text-[32px] mt-1 lg:mt-[-2%]'>Hear What Our Satisfied Users Have to Say!</h1>
       <div className='flex relative justify-between'>
-        <div> <img src="shade4.svg" alt="shade4" className='shade4 mt-24' /> </div>
-        <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-64 mt-24 2xl:ml-[40%]' /> </div>
-        <div className='flex absolute mt-52 2xl:ml-72 2xl:mt-40 mx-10   m-auto'>
-          <div className=' ml-[-1%] mt-32 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
-          <BsArrowLeft className='m-2'/></div>
+        <div> <img src="shade4.svg" alt="shade4" className='shade4 mt-24 ml-[-60%] lg:ml-0 lg:w-[272px] lg:h-[472px] w-72 h-80' /> </div>
+        <div> <img src="shade5.svg" alt="shade5" className='shade5 xl:ml-64 mt-24 2xl:ml-[40%] ml-[-210%] w-28  lg:h-[472px] '  /> </div>
+        <div className='lg:flex absolute lg:mt-52 mt-20 2xl:ml-72 2xl:mt-40 mx-10   m-auto'>
+          <div className=' lg:ml-[-1%] ml-[-11%] lg:mt-32 mr-5 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+          <BsArrowLeft className='lg:m-2 '/></div>
           <motion.div 
-           ref={ref}
-           initial="hidden"
-           animate={inView ? "visible" : "hidden"}
-           variants={variants}
-           transition={{ duration: 1 }}
-          className='  border border-white rounded-3xl xl:ml-32 lg:ml-6 w-56'>
+          //  ref={ref}
+          //  initial="hidden"
+          //  animate={inView ? "visible" : "hidden"}
+          //  variants={variants}
+          //  transition={{ duration: 1 }}
+          className='  border border-white rounded-3xl xl:ml-32 lg:ml-6 w-52 lg:w-56'>
             <div className='flex mx-5 mt-5 '>
               <img src='star (2).png' alt="icon" className='h-10 w-10' />
               <h1 className='ml-3'>Sarah123<p className='text-xs text-gray-600'>Sarah123@gmail.com</p></h1>
@@ -43,12 +43,12 @@ const Section4 = () => {
               social investing community
               has provided valuable insig
               hts. Highly recommended!"</p>
-            <div className='flex justify-between mx-5 mt-5'>
+            <div className='flex justify-between mx-5 mt-5 mb-5'>
               <img src='star (1).png' alt='star' className='w-20 h-5' />
               <p className='text-xs text-gray-700'>01/03/2023</p>
             </div>
           </motion.div>
-          <div className='lg:mx-20 '>
+          <div className='lg:mx-20 lg:block hidden'>
             <div className='w-40 relative rounded-full bg-[#373737] flex lg:ml-32'>
               <img src='icon2.png' alt="icon" className='m-2 h-8 w-8' />
               <h1 className='text-[80%] ml-1 mt-2' >JaneDoe<p className='text-[70%] text-gray-500'>Janedoe@gmail.com</p></h1>
@@ -65,7 +65,7 @@ const Section4 = () => {
            animate={inView ? "visible" : "hidden"}
            variants={variant}
            transition={{ duration: 1 }}
-          className='  border border-white rounded-3xl xl:mr-32 lg:mr-6 w-56 pb-5'>
+          className='  border border-white lg:block hidden rounded-3xl xl:mr-32 lg:mr-6 w-56 pb-5'>
             <div className='flex mx-5 mt-5 '>
               <img src='icon2.png' alt="icon" className='h-10 w-10' />
               <h1 className='ml-3'>JaneDoe<p className='text-xs text-gray-600'>Janedoe@gmail.com</p></h1>
@@ -83,12 +83,12 @@ const Section4 = () => {
               <p className='text-xs text-gray-700'>01/03/2023</p>
             </div>
           </motion.div>
-          <div className='mr-[3%] mt-32 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+          <div className='lg:mr-[3%] mt-[-60%] lg:mt-32 ml-56 rounded-full w-8 h-8' style={{background: 'rgba(255, 255, 255, 0.1)'}}>
             <BsArrowRight className='m-2'/></div>
         </div>
       </div>
       <div>
-        <div className='flex justify-center lg:mt-[55%] xl:mt-[40%] 2xl:mt-[35%]'> 
+        <div className='flex justify-center lg:mt-[55%] mt-[140%] xl:mt-[40%] 2xl:mt-[35%]'> 
           <div className='w-4 h-3  rounded-full' style={{backgroundColor: 'rgba(20, 0, 255, 0.7)',opacity: 0.23}}></div>
           <div className='w-8 h-3 bg-[#1400FFB2] rounded-full lg:ml-2'></div>
           <div className='w-4 h-3  rounded-full lg:ml-2' style={{backgroundColor: 'rgba(20, 0, 255, 0.7)',opacity: 0.23}}></div>

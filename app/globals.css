@@ -21,7 +21,49 @@
 body{
   @apply text-white bg-black
 }
+.button{
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: 'Avenir Next';
+  font-size: 1rem;
+  padding: 5px 17px;
+  color: white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(20, 0, 255, 0.7), rgba(0, 102, 255, 0) 98.95%), linear-gradient(93.72deg, #1400FFB2, #0066FF00);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #1E1E1E inset;
+  box-sizing: border-box;
+/* position: absolute; */
+left: 600px;
+}
+.toggle{
+  position: absolute;
+width: 372px;
+height: 372px;
+background: #1400FF;
+filter: blur(150px);
+}
+.smallsvg{
+  /* position: absolute; */
+  width: 372px;
+  height: 372px;
+  left: -386px;
+  top: 231px;
+  background: #1400FF;
+  filter: blur(170px);
+}
 
+.midShade{
+  position: absolute;
+  width: 454px;
+  height: 440px;
+  left: -12px;
+  top: 307px;
+  background: rgba(20, 0, 255, 0.7);
+  filter: blur(150px);
+  }
 .but{
   box-sizing: border-box;
 position: absolute;
@@ -94,7 +136,7 @@ height: 372px;
 /* left: -104px; */
 top:500px;
 background: rgba(20, 0, 255, 0.7);
-filter: blur(200px);
+filter: blur(150px);
 }
 .shade3{
   position: absolute;
@@ -103,7 +145,7 @@ height: 372px;
 left: 846px;
 top:500px;
 background: rgba(255, 77, 0, 0.7);
-filter: blur(200px);
+filter: blur(150px);
 }
 .bitcoin{
   position: absolute;
@@ -127,6 +169,7 @@ left: 153px;
   .box5{
     background: linear-gradient(134.41deg, rgba(112, 0, 255, 0.315) -22.6%, rgba(255, 0, 153, 0.315) 101.05%);
   }
+ 
  
 }
 
