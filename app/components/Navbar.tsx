@@ -31,10 +31,10 @@ const Navbar = () => {
                 }  top-0 z-50 w-full absolute `}
         >
             <div className="mx-5 py-2  ">
-                <div className="flex lg:justify-center md:justify-center lg:ml-64 md:ml-32 justify-end relative">
+                <div className="flex justify-center  lg:ml-64 md:ml-32  relative">
                     <div className="flex items-center">
                     </div>
-                    <div className="flex items-center md:hidden ">
+                    <div className="flex md:hidden items-center absolute right-0 ">
                         <button onClick={toggleMenu} className={`${isOpen ? "hidden" : " "
                             } `} >
                             < img src="toggle.png" className={`${scrollPosition > 1 ? "bg-[#1E1E1E]" : ""
@@ -45,7 +45,7 @@ const Navbar = () => {
                         className={`${isOpen ? "block" : "hidden"
                             }  `}
                     >
-                        <div className="bg-[#1E1E1E] h-[130%] absolute mt-[-23%]  px-36 w-auto rounded-[40px]  mx-[-69px] inset-10   lg:hidden md:hidden block">
+                        <div className="bg-[#1E1E1E] h-[130%] absolute mt-[-28%]  px-36 w-auto rounded-[40px]  mx-[-69px] inset-10   lg:hidden md:hidden block">
                             <img src="toggle.svg" className="toggle inset-10 h-96 m-auto w-40" />
                         </div>
                     </div>
@@ -53,17 +53,17 @@ const Navbar = () => {
                         className={`${isOpen ? "block" : "hidden"
                             } md:flex md:justify-end z-20 pl-[-30%] text-center inset-10   text-2xl  `}
                     >
-                         <div className="flex items-center absolute  right-0 md:hidden">
-                        <button onClick={toggleMenu} className={`${isOpen ? "" : " hidden"
-                            } `} >
-                            < RxCross2 className={`${scrollPosition > 1 ? "text-white" : ""
-                                } text-2xl  font-bold border-2 rounded-lg`} />
-                        </button>
-                    </div>
+                        <div className="flex items-center absolute  right-0 md:hidden">
+                            <button onClick={toggleMenu} className={`${isOpen ? "" : " hidden"
+                                } `} >
+                                < RxCross2 className={`${scrollPosition > 1 ? "text-white" : ""
+                                    } text-2xl  font-bold border-2 rounded-lg`} />
+                            </button>
+                        </div>
                         <a href="#home">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs md:mt-[-220%] pt-28 lg:mt-[-230%]  mr-4`}
+                                    } block lg:inline-block md:text-xs md:mt-[-220%]   pt-28 lg:mt-[-230%]  mr-4`}
                                 onClick={toggleMenu}
                             >
                                 Home
@@ -71,7 +71,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80  lg:hidden md:hidden block my-3  border-1  " /></div>
+                            >  <hr className="w-[14rem] ml-2   lg:hidden md:hidden block my-3  border-1  " /></div>
                         </a>
 
                         <a href="#about" >
@@ -85,7 +85,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80  lg:hidden md:hidden  block my-3  border-1 " /></div>
+                            >  <hr className="w-[14rem] ml-2   lg:hidden md:hidden  block my-3  border-1 " /></div>
                         </a>
 
                         <a href="#services">
@@ -99,7 +99,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80  lg:hidden md:hidden  block my-3  border-" /></div>
+                            >  <hr className="w-[14rem] ml-2   lg:hidden md:hidden  block my-3  border-" /></div>
                         </a>
 
                         <a href="#summary">
@@ -113,7 +113,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80  lg:hidden  md:hidden  block my-3 bborder " /></div>
+                            >  <hr className="w-[14rem] ml-2   lg:hidden  md:hidden  block my-3 bborder " /></div>
                         </a>
                         <a href="#grid" className="">
                             <a
@@ -126,7 +126,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80 md:hidden  lg:hidden block my-3  border-1 " /></div>
+                            >  <hr className="w-[14rem] ml-2   md:hidden   lg:hidden block my-3  border-1 " /></div>
                         </a>
                         <a href="#test" className="">
                             <a
@@ -139,7 +139,7 @@ const Navbar = () => {
                             <div
                                 className={`${isOpen ? "block" : "hidden"
                                     }`}
-                            >  <hr className="w-80 md:hidden  lg:hidden block my-3 border-1 " /></div>
+                            >  <hr className="w-[14rem] ml-2   md:hidden  lg:hidden block my-3 border-1 " /></div>
                         </a>
 
                         <div className="button w-28  text-[50%] mt-20 py-1 m-auto lg:ml-52 lg:mt-1 md:mt-1 md:ml-14 md:w-28  md:text-xs">

@@ -38,6 +38,15 @@ body{
 /* position: absolute; */
 left: 600px;
 }
+.sectionShade{
+  position: absolute;
+width: 254px;
+height: 240px;
+left: 463px;
+top: 957px;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(150px);
+}
 .toggle{
   position: absolute;
 width: 372px;
@@ -58,11 +67,11 @@ filter: blur(150px);
 .midShade{
   position: absolute;
   width: 454px;
-  height: 440px;
+  height: 340px;
   left: -12px;
-  top: 307px;
+  top: 1207px;
   background: rgba(20, 0, 255, 0.7);
-  filter: blur(150px);
+  filter: blur(200px);
   }
 .but{
   box-sizing: border-box;
