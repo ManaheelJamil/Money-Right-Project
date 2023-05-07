@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className='relative'>
             <div className='lg:m-5 flex py-5  md:pb-0 pb-14 rounded-[40px] lg:pb-10 lg:h-[130%] md:w-[97%] m-3 w-[93%] h-[120%]   lg:w-[97%]  bg-[#1E1E1E] '>
-                <svg width="572" height="572" viewBox="0 0 1372 1372" className='lg:block md:block hidden  ml-[-25%]' fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="572" height="572" viewBox="0 0 1372 1372" className='lg:block md:block hidden md:ml-[-30%] lg:ml-[-25%] 2xl:ml-[-15%]' fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_238_83)">
                         <circle cx="686" cy="686" r="186" fill="#1400FF" />
                     </g>
@@ -20,7 +20,7 @@ const Header = () => {
                         </filter>
                     </defs>
                 </svg>
-                <svg width="572" height="574" className=" lg:block md:block hidden md:ml-48 ml-60 mt-48  absolute" viewBox="0 0 1372 1174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="572" height="574" className=" lg:block md:block hidden  xl:ml-[30%] lg:ml-60 md:ml-32 mt-48  absolute" viewBox="0 0 1372 1174" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_238_84)">
                         <ellipse cx="686" cy="587" rx="186" ry="87" fill="#0066FF" />
                     </g>
@@ -108,7 +108,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div>
-                        <img src='logo.png' alt="groupimage" className='lg:block md:block hidden lg:mt-10 lg:h-[90%] md:mt-10 md:h-[90%] xl:h-[70%] xl:ml-40 xl:mt-2 2xl:h-[50%] 2xl:ml-96 pb-10' />
+                        <img src='logo.png' alt="groupimage" className='lg:block md:block hidden lg:mt-10 lg:h-[90%] md:mt-10 md:h-[90%]  xl:h-[70%] xl:ml-40 xl:mt-2 2xl:h-[60%] 2xl:ml-80 pb-10' />
                     </div>
                 </div>
             </div>

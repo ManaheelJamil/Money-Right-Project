@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <nav
             className={`${scrollPosition > 1 ? "" : "bg-transparent"
-                }  top-0 z-50 w-full absolute `}
+                }  top-0 2xl:top-10 z-50 w-full absolute `}
         >
             <div className="mx-5 py-2  ">
                 <div className="flex justify-center  lg:ml-64 md:ml-32  relative">
@@ -51,19 +51,19 @@ const Navbar = () => {
                     </div>
                     <div
                         className={`${isOpen ? "block" : "hidden"
-                            } md:flex md:justify-end z-20 pl-[-30%] text-center inset-10   text-2xl  `}
+                            } md:flex md:justify-end z-20 pl-[-30%] text-center inset-10  text-2xl  `}
                     >
                         <div className="flex items-center absolute  right-0 md:hidden">
                             <button onClick={toggleMenu} className={`${isOpen ? "" : " hidden"
                                 } `} >
                                 < RxCross2 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } text-2xl  font-bold border-2 rounded-lg`} />
+                                    } lg:text-2xl   font-bold border-2 rounded-lg`} />
                             </button>
                         </div>
                         <a href="#home">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs md:mt-[-220%]   pt-28 lg:mt-[-230%]  mr-4`}
+                                    } block lg:inline-block md:text-xs md:mt-[-220%] 2xl:text-xl  pt-28 lg:mt-[-230%]  mr-4`}
                                 onClick={toggleMenu}
                             >
                                 Home
@@ -77,7 +77,7 @@ const Navbar = () => {
                         <a href="#about" >
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs  lg:mt-0 mt-3`}
+                                    } block lg:inline-block md:text-xs 2xl:text-xl xl:ml-10  lg:mt-0 mt-3`}
                                 onClick={toggleMenu}
                             >
                                 Features
@@ -91,7 +91,7 @@ const Navbar = () => {
                         <a href="#services">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs ml-5 lg:mt-0 mt-3 mr-4`}
+                                    } block lg:inline-block md:text-xs ml-5 2xl:text-xl xl:ml-10  lg:mt-0 mt-3 mr-4`}
                                 onClick={toggleMenu}
                             >
                                 Services
@@ -105,7 +105,7 @@ const Navbar = () => {
                         <a href="#summary">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block  md:text-xs  lg:mt-0 mt-3 mr-4`}
+                                    } block lg:inline-block  md:text-xs 2xl:text-xl xl:ml-10  lg:mt-0 mt-3 mr-4`}
                                 onClick={toggleMenu}
                             >
                                 Reviews
@@ -118,7 +118,7 @@ const Navbar = () => {
                         <a href="#grid" className="">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs  lg:mt-0 mt-3 mr-4`}
+                                    } block lg:inline-block md:text-xs 2xl:text-xl xl:ml-10  lg:mt-0 mt-3 mr-4`}
                                 onClick={toggleMenu}
                             >
                                 Contact Us
@@ -131,7 +131,7 @@ const Navbar = () => {
                         <a href="#test" className="">
                             <a
                                 className={`${scrollPosition > 1 ? "text-white" : ""
-                                    } block lg:inline-block md:text-xs  lg:mt-0 mt-3 mr-4`}
+                                    } block lg:inline-block md:text-xs 2xl:text-xl xl:ml-10  lg:mt-0 mt-3 mr-4`}
                                 onClick={toggleMenu}
                             >
                                 About Us
@@ -142,7 +142,7 @@ const Navbar = () => {
                             >  <hr className="w-[14rem] ml-2   md:hidden  lg:hidden block my-3 border-1 " /></div>
                         </a>
 
-                        <div className="button w-28  text-[50%] mt-20 py-1 m-auto lg:ml-52 lg:mt-1 md:mt-1 md:ml-14 md:w-28  md:text-xs">
+                        <div className="button w-28 2xl:w-48 xl:w-32 xl:h-10 2xl:h-12 2xl:text-xl 2xl:pt-2 xl:pt-2 text-[50%] mt-20 py-1 m-auto lg:ml-44 lg:mt-1 md:mt-1 md:ml-14 xl:ml-60 2xl:ml-60 md:w-28  md:text-xs">
                             <button>How it Works</button>
                         </div>
 

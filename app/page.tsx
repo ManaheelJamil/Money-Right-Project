@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Section1 from './components/Section1'
 import Header from './components/Header'
-import Section from './components/Section'
-import SectionCopy from './components/SectionCopy'
+// import Section from './components'
 import Section2 from './components/Section2'
 import Section3 from './components/Section3'
 import Section4 from './components/Section4'
@@ -12,9 +12,9 @@ import Section7 from './components/Section7'
 const page = () => {
   return (
     <>
-      <Header />
-    <SectionCopy/>
-      {/* <Section /> */}
+      {/* <Header /> */}
+      <Section1/>
+    {/* <SectionCopy/> */}
       {/* <Section2/> */}
       {/* <Section3/>
       <Section4/>

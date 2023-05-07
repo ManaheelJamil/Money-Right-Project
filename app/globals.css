@@ -58,12 +58,13 @@ filter: blur(150px);
   /* position: absolute; */
   width: 372px;
   height: 372px;
-  left: -386px;
+  left: -186px;
   top: 231px;
+  
   background: #1400FF;
-  filter: blur(170px);
-}
+  filter: blur(200px);
 
+}
 .midShade{
   position: absolute;
   width: 454px;
@@ -179,8 +180,8 @@ left: 153px;
     background: linear-gradient(134.41deg, rgba(112, 0, 255, 0.315) -22.6%, rgba(255, 0, 153, 0.315) 101.05%);
   }
  
- 
 }
+
 
 
 
