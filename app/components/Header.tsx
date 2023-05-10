@@ -47,7 +47,7 @@ const Header = () => {
 
             </div>
             <div className='absolute inset-5 '>
-               <Navbar/>
+                <Navbar />
                 <div className="flex">
                     <div className='lg:ml-20'>
                         <svg width="208" height="208" className=" ml-[-5%] w-36 mt-[-32%] md:mt-[-4%] md:w-44 lg:mt-[-6%]" viewBox="0 0 208 208" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -73,19 +73,19 @@ const Header = () => {
                         </h1><h1 className='lg:text-6xl md:text-5xl text-4xl ml-5 font-bold'>Money Right</h1>
                         <p className='text-sm  ml-5 w-60  mt-5 lg:mt-7'>Redefine Your Financial Future with Revolutionary Finance Technology</p>
                         <div className='lg:hidden md:hidden block mt-10 ml-10 '>
-                            <div style={{background: 'rgba(0, 0, 0, 0.45)'}} className='flex  w-48 rounded-full '>
-                                <div style={{background: 'linear-gradient(134.41deg, rgba(20, 0, 255, 0.315) -22.6%, rgba(0, 102, 255, 0.315) 101.05%)'}} className='w-36 rounded-full flex justify-evenly py-2'>
-                                <img src='appstore.png' className='w-8'/>
-                                <p className='text-xs mt-2'>App Store</p>
+                            <div style={{ background: 'rgba(0, 0, 0, 0.45)' }} className='flex  w-48 rounded-full '>
+                                <div style={{ background: 'linear-gradient(134.41deg, rgba(20, 0, 255, 0.315) -22.6%, rgba(0, 102, 255, 0.315) 101.05%)' }} className='w-36 rounded-full flex justify-evenly py-2'>
+                                    <img src='appstore.png' className='w-8' />
+                                    <p className='text-xs mt-2'>App Store</p>
                                 </div>
-                                <img src="cloud.png" className='w-5 h-5 mt-4 ml-2'/>
+                                <img src="cloud.png" className='w-5 h-5 mt-4 ml-2' />
                             </div>
-                            <div style={{background: 'rgba(0, 0, 0, 0.45)'}} className=' mt-4 flex  w-48 rounded-full '>
-                                <div style={{background: 'linear-gradient(134.41deg, rgba(20, 0, 255, 0.315) -22.6%, rgba(0, 102, 255, 0.315) 101.05%)'}} className='w-36 rounded-full flex justify-evenly py-2'>
-                                <img src='playstore.png' className='w-7'/>
-                                <p className='text-xs mt-2'>Play Store</p>
+                            <div style={{ background: 'rgba(0, 0, 0, 0.45)' }} className=' mt-4 flex  w-48 rounded-full '>
+                                <div style={{ background: 'linear-gradient(134.41deg, rgba(20, 0, 255, 0.315) -22.6%, rgba(0, 102, 255, 0.315) 101.05%)' }} className='w-36 rounded-full flex justify-evenly py-2'>
+                                    <img src='playstore.png' className='w-7' />
+                                    <p className='text-xs mt-2'>Play Store</p>
                                 </div>
-                                <img src="cloud.png" className='w-5 h-5 mt-4 ml-2'/>
+                                <img src="cloud.png" className='w-5 h-5 mt-4 ml-2' />
                             </div>
                         </div>
                         <div className='flex md:mt-10 md:ml-5'>

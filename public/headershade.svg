@@ -1,0 +1,12 @@
+ <svg width="664" height="1046" className='bg-white md:block hidden ' viewBox="0 0 664 1046" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_8_125)">
+                        <circle cx="-22" cy="360" r="186" fill="#1400FF" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_8_125" x="-708" y="-326" width="1372" height="1372" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_8_125" />
+                        </filter>
+                    </defs>
+                </svg>

@@ -142,7 +142,7 @@ const Navbar = () => {
                             >  <hr className="w-[14rem] ml-2   md:hidden  lg:hidden block my-3 border-1 " /></div>
                         </a>
 
-                        <div className="button w-28 2xl:w-48 xl:w-32 xl:h-10 2xl:h-12 2xl:text-xl 2xl:pt-2 xl:pt-2 text-[50%] mt-20 py-1 m-auto lg:ml-44 lg:mt-1 md:mt-1 md:ml-14 xl:ml-60 2xl:ml-60 md:w-28  md:text-xs">
+                        <div className="button w-28 border-blue-900 2xl:w-48 xl:w-32 xl:h-10 2xl:h-12 2xl:text-xl 2xl:pt-2 xl:pt-2 text-[50%] mt-20 py-1 m-auto lg:ml-44 lg:mt-1 md:mt-1 md:ml-14 xl:ml-60 2xl:ml-60 md:w-28  md:text-xs">
                             <button>How it Works</button>
                         </div>
 

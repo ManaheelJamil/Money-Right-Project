@@ -9,15 +9,16 @@ import Section4 from './components/Section4'
 import Section5 from './components/Section5'
 import Section6 from './components/Section6'
 import Section7 from './components/Section7'
+import SectionCopy from './components/SectionCopy'
 const page = () => {
   return (
     <>
-      {/* <Header /> */}
+    
       <Section1/>
-    {/* <SectionCopy/> */}
-      {/* <Section2/> */}
-      {/* <Section3/>
-      <Section4/>
+      <SectionCopy/>
+      <Section2/>
+      {/* <Section3 delay={0}/> */}
+      {/* <Section4/>
       <Section5/>
       <Section6/>
       <Section7/> */}

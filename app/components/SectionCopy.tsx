@@ -18,31 +18,31 @@ const SectionCopy = () => {
     };
     return (
         <>
-            <h1 className='text-5xl text-center font-bold mt-20'>Amazing<br />
+            <h1 className='lg:text-5xl 2xl:text-6xl md:text-4xl text-4xl mt-10 text-center font-bold md:mt-24'>Amazing<br />
                 Features</h1>
-            <img src="shade.svg" className='md:block hidden sectionShade lg:left-[40%] md:left-[250px] md:top-[900px]' />
-            <img src='midshade.svg' className='midShade lg:hidden md:hidden block'/>
-            <div> <motion.img
-                    // ref={ref}
-                    // initial="hidden"
-                    // animate={inView ? "visible" : "hidden"}
-                    // variants={variantss}
-                    // transition={{ duration: 1 }}
-                    src='laptop.svg' className=' md:hidden block ml-4 w-[90%] relative ' />
-                    <h1 className='text-xl md:hidden block mt-[-20%] font-bold text-center'>STREAMLINE<br />
-                        YOUR<br />
-                        WEALTH</h1></div>
-            <div className='  grid grid-rows-1 grid-flow-col  md:mx-10'>
-                <div >
+            <img src="shade.svg" className='md:block hidden sectionShade 2xl:ml-[10%] 2xl:mt-[30%] ' />
+            <img src='midshade.svg' className='midShade   md:hidden block' />
+            <div className='grid grid-cols-1'> <motion.img
+                // ref={ref}
+                // initial="hidden"
+                // animate={inView ? "visible" : "hidden"}
+                // variants={variantss}
+                // transition={{ duration: 1 }}
+                src='laptop.png' className=' md:hidden block   relative ' />
+                <h1 className='text-xl md:hidden block  font-bold text-center'>STREAMLINE<br />
+                    YOUR<br />
+                    WEALTH</h1></div>
+            <div className='  md:grid md:grid-cols-5   md:gap-20 md:mt-40 mt-28   place-items-center '>
+                <div className='md:grid md:place-items-start grid place-items-center '>
                     <motion.div
                         // ref={ref}
                         // initial="hidden"
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variants}
                         // transition={{ duration: 1 }}
-                        className='lg:rounded-3xl md:rounded-2xl absolute mt-10 mx-14 md:mx-0 rounded-2xl  w-52 h-28 lg:w-44 lg:h-[15%] md:w-36 md:h-[20%] bg-[#121212]'>
-                        <img src='smallicon1.png' className='lg:w-12 w-10 h-9 lg:h-8 md:w-10 md:h-6 m-auto' alt='logo' />
-                        <p className='md:text-[8px] text-[12px] text-center lg:mx-10 mt-2'>Effortlessly manage and<br />
+                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl absolute  md:mt-[-22%] mx-14 md:mx-0 rounded-xl 2xl:w-80 2xl:h-[18%] xl:w-52 xl:h-[18%] w-52 h-28 lg:w-48 lg:h-[17%] md:w-40 md:h-[17%] bg-[#121212]'>
+                        <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 xl:w-16 xl:h-12 2xl:h-16 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
+                        <p className='md:text-[8px] text-[12px] text-center 2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
                             in real-time.</p>
                     </motion.div>
@@ -52,34 +52,35 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variants}
                         // transition={{ duration: 1 }}
-                        className='lg:rounded-3xl md:rounded-2xl  lg:w-44 lg:h-[15%] md:mx-0  rounded-2xl lg:mt-80  w-52 h-28 mx-12 absolute mt-52 md:w-36 md:h-[20%]  bg-[#121212]'>
-                        <img src='smallicon1.png' className='lg:w-12 w-10 h-9 lg:h-8 md:w-10 md:h-6 m-auto' alt='logo' />
-                        <p className='md:text-[8px] text-[12px] text-center lg:mx-10 mt-2'>Effortlessly manage and<br />
+                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl lg:w-48 lg:h-[17%] md:mx-0 mt-[100%] md:mt-[-2%]  rounded-xl 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  w-52 h-28 mx-12 absolute md:w-40 md:h-[17%]  bg-[#121212]'>
+                        <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 2xl:h-16 xl:w-16 xl:h-12 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
+                        <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px]  lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
                             in real-time.</p>
                     </motion.div>
                 </div>
-                <div> <motion.img
+                <div className='md:grid md:col-span-3'>
+                    <motion.img
                     // ref={ref}
                     // initial="hidden"
                     // animate={inView ? "visible" : "hidden"}
                     // variants={variantss}
                     // transition={{ duration: 1 }}
-                    src='laptop.svg' className='lg:block md:block hidden lg:w-[70%] m-auto md:w-[70%] relative ' />
-                    <h1 className='text-2xl  md:block hidden  mt-[-15%] font-bold text-center'>STREAMLINE<br />
+                    src='laptop.png' className='lg:block  md:block hidden w-[200%] laptop relative ' />
+                    <h1 className='text-2xl  md:block hidden   2xl:text-[30px] font-bold text-center'>STREAMLINE<br />
                         YOUR<br />
                         WEALTH</h1>
                 </div>
-                <div className='lg:ml-[-200%] '>
+                <div className='md:grid md:place-items-center md:ml-[-130%] grid place-items-center'>
                     <motion.div
                         // ref={ref}
                         // initial="hidden"
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variant}
                         // transition={{ duration: 1 }}
-                        className='md:rounded-3xl lg:w-44 lg:h-[15%] absolute ml-[-50%] mt-[40%] md:mx-0   md:w-36 md:h-[20%]  rounded-2xl  w-52 h-28  bg-[#121212]'>
-                        <img src='smallicon1.png' className='lg:w-12 w-10 h-9 lg:h-8 md:w-10 md:h-6 m-auto' alt='logo' />
-                        <p className='md:text-[8px] text-[12px] text-center lg:mx-10 mt-2'>Effortlessly manage and<br />
+                        className='md:rounded-2xl lg:w-48 lg:h-[17%] xl:rounded-2xl 2xl:rounded-3xl absolute mt-[200%] md:mt-[-10%] md:mx-0   md:w-40 md:h-[17%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  rounded-2xl  w-52 h-28  bg-[#121212]'>
+                        <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 2xl:h-16 xl:w-16 xl:h-12 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
+                        <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
                             in real-time.</p>
                     </motion.div>
@@ -89,9 +90,9 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variant}
                         // transition={{ duration: 1 }}
-                        className='md:rounded-3xl lg:w-44 lg:h-[15%] md:w-36 absolute md:mx-0  mt-[170%] ml-[-50%]  md:h-[20%] md:mt-32  rounded-2xl  w-52 h-28  bg-[#121212]'>
-                        <img src='smallicon1.png' className='lg:w-12 w-10 h-9 lg:h-8 md:w-10 md:h-6 m-auto' alt='logo' />
-                        <p className='md:text-[8px] text-[12px] text-center lg:mx-10 mt-2'>Effortlessly manage and<br />
+                        className='md:rounded-2xl lg:w-48 lg:h-[17%] 2xl:rounded-3xl xl:rounded-2xl md:w-40 absolute md:mx-0 mt-[300%]  md:h-[17%] md:mt-[40%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%] rounded-2xl  w-52 h-28  bg-[#121212]'>
+                        <img src='smallicon1.png' className='lg:w-14 w-10 h-9 lg:h-10 md:w-10 xl:w-16 xl:h-12 2xl:w-24 2xl:h-16  md:h-6 m-auto' alt='logo' />
+                        <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
                             in real-time.</p>
                     </motion.div>
