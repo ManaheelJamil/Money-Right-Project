@@ -17,7 +17,7 @@ const page = () => {
       <Section1/>
       <SectionCopy/>
       <Section2/>
-      {/* <Section3 delay={0}/> */}
+      <Section3 delay={0}/>
       {/* <Section4/>
       <Section5/>
       <Section6/>

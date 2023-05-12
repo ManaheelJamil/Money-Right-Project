@@ -20,9 +20,10 @@ const SectionCopy = () => {
         <>
             <h1 className='lg:text-5xl 2xl:text-6xl md:text-4xl text-4xl mt-10 text-center font-bold md:mt-24'>Amazing<br />
                 Features</h1>
-            <img src="shade.svg" className='md:block hidden sectionShade 2xl:ml-[10%] 2xl:mt-[30%] ' />
+            <img src="shade.svg" className='md:block hidden sectionShade 2xl:ml-[10%] md:mt-[-10%] md:ml-[-10%] md:w-96 md:h-96 2xl:mt-[30%] ' />
             <img src='midshade.svg' className='midShade   md:hidden block' />
-            <div className='grid grid-cols-1'> <motion.img
+            <div className='grid grid-cols-1'> 
+            <motion.img
                 // ref={ref}
                 // initial="hidden"
                 // animate={inView ? "visible" : "hidden"}
@@ -40,7 +41,7 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variants}
                         // transition={{ duration: 1 }}
-                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl absolute  md:mt-[-22%] mx-14 md:mx-0 rounded-xl 2xl:w-80 2xl:h-[18%] xl:w-52 xl:h-[18%] w-52 h-28 lg:w-48 lg:h-[17%] md:w-40 md:h-[17%] bg-[#121212]'>
+                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl absolute  md:mt-[-22%] mx-14 md:mx-0 rounded-xl 2xl:w-80 2xl:h-[18%] xl:w-52 xl:h-[18%] w-52 h-28 lg:w-48 lg:h-[17%] md:w-40 md:h-[10%] bg-[#121212]'>
                         <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 xl:w-16 xl:h-12 2xl:h-16 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
                         <p className='md:text-[8px] text-[12px] text-center 2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
@@ -52,7 +53,7 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variants}
                         // transition={{ duration: 1 }}
-                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl lg:w-48 lg:h-[17%] md:mx-0 mt-[100%] md:mt-[-2%]  rounded-xl 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  w-52 h-28 mx-12 absolute md:w-40 md:h-[17%]  bg-[#121212]'>
+                        className='lg:rounded-3xl md:rounded-2xl xl:rounded-2xl 2xl:rounded-3xl lg:w-48 lg:h-[17%] md:mx-0 mt-[100%] md:mt-[-2%]  rounded-xl 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  w-52 h-28 mx-12 absolute md:w-40 md:h-[10%]  bg-[#121212]'>
                         <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 2xl:h-16 xl:w-16 xl:h-12 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
                         <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px]  lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
@@ -78,7 +79,7 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variant}
                         // transition={{ duration: 1 }}
-                        className='md:rounded-2xl lg:w-48 lg:h-[17%] xl:rounded-2xl 2xl:rounded-3xl absolute mt-[200%] md:mt-[-10%] md:mx-0   md:w-40 md:h-[17%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  rounded-2xl  w-52 h-28  bg-[#121212]'>
+                        className='md:rounded-2xl lg:w-48 lg:h-[17%] xl:rounded-2xl 2xl:rounded-3xl absolute mt-[200%] md:mt-[-10%] md:mx-0   md:w-40 md:h-[10%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%]  rounded-2xl  w-52 h-28  bg-[#121212]'>
                         <img src='smallicon1.png' className='lg:w-14 w-10 h-9 2xl:w-24 2xl:h-16 xl:w-16 xl:h-12 lg:h-10 md:w-10 md:h-6 m-auto' alt='logo' />
                         <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />
@@ -90,7 +91,7 @@ const SectionCopy = () => {
                         // animate={inView ? "visible" : "hidden"}
                         // variants={variant}
                         // transition={{ duration: 1 }}
-                        className='md:rounded-2xl lg:w-48 lg:h-[17%] 2xl:rounded-3xl xl:rounded-2xl md:w-40 absolute md:mx-0 mt-[300%]  md:h-[17%] md:mt-[40%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%] rounded-2xl  w-52 h-28  bg-[#121212]'>
+                        className='md:rounded-2xl lg:w-48 lg:h-[17%] 2xl:rounded-3xl xl:rounded-2xl md:w-40 absolute md:mx-0 mt-[300%]  md:h-[10%] md:mt-[40%] 2xl:w-80 2xl:h-[18%]  xl:w-52 xl:h-[18%] rounded-2xl  w-52 h-28  bg-[#121212]'>
                         <img src='smallicon1.png' className='lg:w-14 w-10 h-9 lg:h-10 md:w-10 xl:w-16 xl:h-12 2xl:w-24 2xl:h-16  md:h-6 m-auto' alt='logo' />
                         <p className='md:text-[8px] text-[12px] text-center  2xl:text-[14px] lg:mx-10 mt-2'>Effortlessly manage and<br />
                             track your investments<br />

@@ -158,21 +158,38 @@ filter: blur(200px);
 }
 .shade2{
   position: absolute;
-width: 272px;
+width: 372px;
 height: 372px;
-/* left: -104px; */
-top:500px;
+left: -100px;
+/* top:2800px; */
 background: rgba(20, 0, 255, 0.7);
-filter: blur(150px);
+filter: blur(250px);
 }
 .shade3{
   position: absolute;
-width:222px;
+  width: 272px;
+  height: 372px;
+  right: -100px;
+  /* top:2800px; */
+  background: rgba(255, 77, 0, 0.7);
+  filter: blur(250px);
+}
+.shade2copy{
+  position: absolute;
+width: 372px;
 height: 372px;
-left: 846px;
-top:500px;
+left: -186px;
+top: 1753px;
+background: rgba(20, 0, 255, 0.7);
+filter: blur(250px);
+}.shade3copy{
+  position: absolute;
+width: 372px;
+height: 372px;
+left: 244px;
+top: 1804px;
 background: rgba(255, 77, 0, 0.7);
-filter: blur(150px);
+filter: blur(250px);
 }
 .bitcoin{
   position: absolute;

@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Image from 'next/image';
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 const Section2 = () => {
@@ -18,80 +19,66 @@ const Section2 = () => {
     };
     return (
         <>
-            <div className='flex  relative'>
-                <div><img src='shade2.svg' className='shade2 ml-[-60%] md:ml-0 md:w-[272px] md:h-[472px] w-72 h-80' /></div>
-                <div><img src='shade3.svg' className='shade3 xl:ml-52 2xl:ml-[30%] ml-[-3%] w-28  lg:h-[472px] ' /></div>
+            <div className='grid grid-cols-12 lg:mt-52 mt-[140%]  md:mt-0'>
+                <div className='col-span-5'>
+                    <Image src="shade2.svg" alt='image' width="872" height="1372" className='shade2  md:block hidden top-[1800px] 2xl:top-[3000px] md:w-[300px]  md:h-[300px] xl:top-[2300px] lg:top-[2200px] md:top-[1600px]' />
+                </div>
+                <div className='col-span-2'></div>
+                <div className='col-span-5'>
+                    <Image src="shade3.svg" alt='image' width="872" height="1372" className='shade3 md:block hidden  top-[1800px] 2xl:top-[3000px] xl:top-[2300px] md:w-[200px]  md:h-[300px] lg:top-[2200px] md:top-[1600px]' /></div>
             </div>
-            <div className='flex  justify-center mt-44'>
-                <img src='nut.png' className='lg:w-72 w-32 lg:mt-2 h-32 lg:h-72 mt-32' />
+            <div >
+                <Image src="shade2copy.svg" alt={''} className='md:hidden block shade2copy' width="372" height="272" />
+                <Image src="shade3copy.svg" alt={''} className='md:hidden block shade3copy' width="372" height="272"/>
+            </div>
+            <div className='flex  justify-center  '>
+                <img src='nut.png' className='lg:w-72 w-32 md:w-52 md:h-52 lg:mt-2 h-32 2xl:w-[600px] 2xl:h-[600px] lg:h-72 mt-32' />
                 <div className='mt-40 2xl:ml-[-4%] lg:ml-[-10%]'>
-                    <h1 className='lg:text-6xl ml-[-30%] mt-5 text-2xl lg:mt-[-8%] 2xl:ml-[-10%] xl:ml-[-4%] lg:ml-[-9%] xl:mt-[-8%] font-bold'>Empower Your Wealth</h1>
-                    <p className='lg:ml-20  xl:ml-24 text-sm ml-[-4%] lg:text-3xl'>Services we are providing</p>
+                    <h1 className='lg:text-6xl 2xl:text-9xl md:text-5xl md:ml-[-24%] md:mt-10 2xl:mt-20 ml-[-30%] mt-4 text-2xl lg:mt-[-8%] 2xl:ml-[-17%] xl:ml-[-4%] lg:ml-[-9%] xl:mt-[-8%] font-bold'>Empower Your Wealth</h1>
+                    <p className='lg:ml-20  xl:ml-24 2xl:text-5xl md:text-lg text-sm ml-[-4%] lg:text-3xl'>Services we are providing</p>
                 </div>
             </div>
+            <div className='md:grid md:grid-cols-3 gap-10 mt-20 mx-20 place-items-center'>
+            <div className="relative">
+                <img src="border.png" alt="Your Image" className="w-full max-w-[300px] max-h-[700px] h-auto" />
+                <div className="absolute top-0 left-0 w-full h-full flex lg:my-10 md:my-7 my-5 xl:my-14 justify-center">
+                <h1 className='text-center  absolute lg:text-2xl md:text-lg  xl:text-3xl font-semibold  '>Expense Tracking</h1>
+                <p className='text-center absolute  text-xs mt-10 lg:text-lg xl:text-lg 2xl:text-md md:px-3 md:text-xs lg:mt-14 md:mt-10 xl:px-7 lg:px-5'>Allowing users to input and
+                        categorize expenses, creat
+                        spending reports, and gain
+                        insights into their spending
+                        patterns.</p>
+                        <img src='expense.png' className=' lg:w-8 lg:h-10 w-6 h-6 mt-[90%] flex lg:mt-56 2xl:mt-64 xl:mt-64 md:mt-[87%]  justify-center' />
+                </div>
+            </div>
+            <div className="relative  md:mt-0 mt-10">
+                <img src="border.png" alt="Your Image" className="w-full max-w-[300px] max-h-[700px] h-auto" />
+                <div className="absolute top-0 left-0 w-full h-full flex lg:my-10 md:my-7  my-5 xl:my-14 justify-center">
+                <h1 className='text-center  absolute lg:text-2xl md:text-lg  xl:text-3xl  font-semibold  '>Expense Tracking</h1>
+                <p className='text-center absolute  text-xs mt-10 lg:text-lg xl:text-lg 2xl:text-md md:px-3  md:text-xs lg:mt-14 md:mt-10 xl:px-7 lg:px-5'>Allowing users to input and
+                        categorize expenses, creat
+                        spending reports, and gain
+                        insights into their spending
+                        patterns.</p>
+                        <img src='expense.png' className=' lg:w-8 lg:h-10 w-6 h-6 mt-[90%] flex lg:mt-56 2xl:mt-64 xl:mt-64 md:mt-[87%]  justify-center' />
+                </div>
+            </div>
+            <div className="relative md:mt-0 mt-10">
+                <img src="border.png" alt="Your Image" className="w-full max-w-[300px] max-h-[700px] h-auto" />
+                <div className="absolute top-0 left-0 w-full h-full flex lg:my-10 md:my-7  my-5 xl:my-14  justify-center ">
+                <h1 className='text-center  absolute lg:text-2xl md:text-lg  xl:text-3xl  font-semibold  '>Expense Tracking</h1>
+                <p className='text-center absolute  text-xs mt-10 lg:text-lg xl:text-lg 2xl:text-md md:px-3 md:text-xs lg:mt-14 md:mt-10 xl:px-7 lg:px-5'>Allowing users to input and
+                        categorize expenses, creat
+                        spending reports, and gain
+                        insights into their spending
+                        patterns.</p>
+                        <img src='expense.png' className=' lg:w-8 lg:h-10 w-6  mt-[90%] h-6 flex lg:mt-56 2xl:mt-64 xl:mt-64 md:mt-[87%]  justify-center' />
+                
+                </div>
+            </div>
+                
+            </div> 
 
-            {/* <div className='lg:flex mt-10 w-[80%] justify-between m-auto'>
-                <motion.div
-                //  ref={ref}
-                //  initial="hidden"
-                //  animate={inView ? "visible" : "hidden"}
-                //  variants={variants}
-                //  transition={{ duration: 1 }}
-                >
-                    <img src='border.png' className='lg:w-60 w-40 m-auto mt-12' />
-                    <h1 className='text-center  absolute text-2xl  mx-7 font-semibold mt-[-17%] '>Expense Tracking</h1>
-                    <p className='text-center absolute text-[110%] text-xs  mt-[-13%] ml-5 w-52 px-3'>Allowing users to input and
-                        categorize expenses, creat
-                        spending reports, and gain
-                        insights into their spending
-                        patterns.</p>
-                    <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[37%] lg:ml-[105px]  mt-[-10%] lg:mt-[-5%] xl:mt-[-4%]' />
-                </motion.div>
-                <motion.div
-                //  ref={ref}
-                //  initial="hidden"
-                //  animate={inView ? "visible" : "hidden"}
-                //  variants={variantss}
-                //  transition={{ duration: 1 }}
-                >
-                    <img src='border.png' className='lg:w-60 w-40 m-auto mt-12 ' />
-                    <h1 className='text-center  absolute lg:text-2xl text-md mx-8 font-semibold mt-[-55%] xl:mt-[-22%] lg:mt-[-24%] '>Expense Tracking</h1>
-                    <p className='text-center absolute lg:text-[100%] text-xs mt-[-45%]  w-40  xl:text-[90%] xl:mt-[-18%] lg:mt-[-18%] ml-12 lg:ml-5 lg:w-52 px-3  '>Allowing users to input and
-                        categorize expenses, creat
-                        spending reports, and gain
-                        insights into their spending
-                        patterns.</p>
-                    <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[37%] lg:ml-[105px]  mt-[-10%] lg:mt-[-5%] xl:mt-[-4%]' />
-                </motion.div>
-                <motion.div
-                //  ref={ref}
-                //  initial="hidden"
-                //  animate={inView ? "visible" : "hidden"}
-                //  variants={variant}
-                //  transition={{ duration: 1 }}
-                >
-                    <img src='border.png' className='lg:w-60 w-40 m-auto mt-12 ' />
-                    <h1 className='text-center  absolute lg:text-2xl text-md mx-8 font-semibold mt-[-55%] xl:mt-[-22%] lg:mt-[-24%] '>Expense Tracking</h1>
-                    <p className='text-center absolute lg:text-[100%] text-xs mt-[-45%]  w-40  xl:text-[90%] xl:mt-[-18%] lg:mt-[-18%] ml-12 lg:ml-5 lg:w-52 px-3  '>Allowing users to input and
-                        categorize expenses, creat
-                        spending reports, and gain
-                        insights into their spending
-                        patterns.</p>
-                    <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[37%] lg:ml-[105px]  mt-[-10%] lg:mt-[-5%] xl:mt-[-4%]' />
-                </motion.div>
-            </div> */}
-            <div className='md:grid md:grid-cols-3 gap-10 mx-20 place-items-center'>
-                <div ><img src='border.png' className='relative  w-72 m-auto mt-12' />
-               <h1 className='absolute z-20'>hello</h1>
-                    {/* <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[125px] mt-[-3%] ' /> */}
-                </div>
-                <div><img src='border.png' className='w-72 m-auto mt-12' />
-                    <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[125px] mt-[-3%]' />
-                </div>
-                <div><img src='border.png' className='w-72 m-auto mt-12' />
-                    <img src='expense.png' className='absolute lg:w-8 w-5  m-auto ml-[125px] mt-[-3%]' />
-                </div>
-            </div>
         </>
     )
 }
